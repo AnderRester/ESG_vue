@@ -1,0 +1,244 @@
+body {
+    background-color: #F2F2F2;
+}
+
+#logo-image {
+    margin-left: 2%;
+    color: #A5A5A5;
+}
+
+#navbarSupportedContent {
+    margin-right: 1%;
+}
+
+#navbarSupportedContent>ul>li>a {
+    color: #aeafaf;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+}
+
+header {
+    background-repeat: no-repeat;
+    background-image: url(/images/bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    box-shadow: inset -3px -3px 50px 40px rgba(0, 0, 0, 0.7);
+}
+
+.banner_main_text_cont>h2 {
+    color: #F3F3F3;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+}
+
+.banner_main_text_cont>h4 {
+    color: #F2F2F2;
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: -1.3vh;
+}
+
+.banner_main_text_cont {
+    margin-top: 50vh;
+    line-height: 8.5em;
+}
+
+.tagline {
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -16vh;
+    top: 40vh;
+    color: #F2F2F2;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+@media (max-width:1000px) {
+    .tagline {
+        display: none;
+    }
+}
+
+@media (max-height:740px) {
+    .tagline,
+    .sub_banner_text {
+        display: none;
+    }
+}
+
+@media (min-width: 575px) {
+    .card {
+        margin-left: 0;
+        margin-right: 0;
+        height: 40%;
+    }
+}
+
+@media (min-width: 576px) {
+    .card {
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+}
+
+.sub_banner_text {
+    color: #F2F2F2;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 0.6em;
+    margin-top: 8vh;
+}
+
+#navbarDropdown {
+    text-decoration: none;
+    color: #aeafaf;
+}
+
+
+/* FOUNDERS__CONT */
+
+.founders_cont>h1,
+h4 {
+    text-align: center;
+    color: #373737;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 800;
+}
+
+.founders_cont>h1 {
+    margin-top: 8vh;
+    padding-bottom: 12vh;
+    font-size: 40px;
+}
+
+.founders_cont>h4 {
+    margin-top: 6vh;
+    font-size: 26px;
+}
+
+.founders_cont>h4>span {
+    margin-top: 6vh;
+    padding-bottom: 6vh;
+    font-size: 22px;
+}
+
+.workshop_cont {
+    /* height: 80vh; */
+    background-color: #A5A6AC;
+}
+
+.carousel-indicators {
+    margin-bottom: -6rem;
+}
+
+.workshop_cont>h1 {
+    margin-top: 9vh;
+    padding-top: 8vh;
+    padding-bottom: 10vh;
+    font-size: 40px;
+}
+
+.workshop_cont>h4 {
+    margin-top: 6vh;
+    font-size: 26px;
+    padding-top: 12vh;
+    padding-bottom: 8vh;
+}
+
+.workshop_cont>h1,
+h4 {
+    text-align: center;
+    color: #373737;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 800;
+}
+
+.col>.card {
+    margin: auto;
+    margin-bottom: 2vh;
+}
+
+.workshop_image {
+    margin: auto;
+}
+
+.project_description {
+    background-color: #F2F2F2;
+}
+
+.project_description>h1 {
+    margin-top: 2vh;
+    padding-top: 3vh;
+    padding-bottom: 10vh;
+    font-size: 40px;
+}
+
+.project_description_article {
+    font-family: 'Titillium Web', sans-serif;
+    margin-left: 3.5vh;
+    font-weight: 600;
+    margin-top: 6%;
+}
+
+.project_description_h4 {
+    margin-top: 10vh;
+    font-size: 26px;
+    padding-top: 12vh;
+    padding-bottom: 8vh;
+}
+
+.project_description_span {
+    margin-top: 6vh;
+    padding-bottom: 6vh;
+    font-size: 22px;
+}
+
+.project_description>h1,
+.project_description_h4 {
+    text-align: center;
+    color: #373737;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 800;
+}
+
+.project_description_preview {
+    background-image: url(/images/qGa_jLmSEbE.jpg);
+    height: 50vh;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+}
+
+@media (max-width: 860px) {
+    .project_description_article_optimization {
+        display: none;
+    }
+}
+
+@media (max-height: 870px) {
+    .project_description_article_optimization {
+        display: none;
+    }
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+@media (max-width: 991px) {
+    .navbar-collapse {
+        margin-top: 10vh;
+        font-size: 20px;
+        /* color: #fcfcfc; */
+    }
+    #navbarSupportedContent>ul>li>a {
+        margin-top: 2vh;
+        color: #e7e7e7;
+    }
+    #navbarSupportedContent>ul>li>a>svg {
+        height: 40px;
+        width: 40px;
+    }
+}
