@@ -1,30 +1,17 @@
-<script setup>
-import { RouterLink, RouterView } from "vue-router";
-import { BootstrapVue, IconsPlugin } from 'bootstrap-vue';
-import { DropdownPlugin } from 'bootstrap-vue';
-import { NavbarPlugin } from 'bootstrap-vue';
-import Popper from 'vue-popperjs';
-import HelloWorld from "@/components/HelloWorld.vue";
-import { mergeData } from "vue-functional-data-merge";
+<script setup lang="ts">
+import { RouterLink, RouterView } from 'vue-router'
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
+import HelloWorld from '@/components/HelloWorld.vue'
 </script>
 
 <template>
-  <!-- <header>
-    <div class="wrapper">
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-      </nav>
-    </div>
-  </header> -->
   <RouterView />
 </template>
 
 <style>
-/* @import "@/assets/base.css"; */
-@import "@/assets/normalize.css";
-@import "@/assets/main.css";
+@import '@/assets/main.css';
+@import '@/assets/normalize.css';
+@import 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css';
 @import 'bootstrap/dist/css/bootstrap.css';
 @import 'bootstrap-vue/dist/bootstrap-vue.css';
-@import 'vue-popperjs/dist/vue-popper.css';
 </style>
-
