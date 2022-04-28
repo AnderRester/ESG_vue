@@ -19,7 +19,7 @@ body {
 
 header {
     background-repeat: no-repeat;
-    background-image: url(/images/bg.png);
+    background-image: url(../assets/images/bg.png);
     background-position: center;
     background-size: cover;
     height: 80vh;
@@ -200,7 +200,7 @@ h4 {
 }
 
 .project_description_preview {
-    background-image: url(/images/qGa_jLmSEbE.jpg);
+    background-image: url(../assets/images/qGa_jLmSEbE.jpg);
     height: 50vh;
     position: relative;
     background-position: center;

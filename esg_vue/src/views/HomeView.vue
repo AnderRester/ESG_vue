@@ -10,21 +10,21 @@ import Footer from '@/components/FooterItem.vue';
                 <h1>Founders</h1>
                 <div class="card-group">
                     <div class="card">
-                        <img class=" card-img-top " src="/images/founders/jUPq7QRYn1M.jpg" alt="Card image cap ">
+                        <img class=" card-img-top " src="../assets/images/founders/jUPq7QRYn1M.jpg" alt="Card image cap ">
                         <div class="card-body ">
                             <h5 class="card-title ">Advertiser</h5>
                             <p class="card-text ">This text</p>
                         </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top " src="/images/founders/111.jpg " alt="Card image cap ">
+                        <img class="card-img-top " src="../assets/images/founders/111.jpg " alt="Card image cap ">
                         <div class="card-body ">
                             <h5 class="card-title ">Developer</h5>
                             <p class="card-text ">This text</p>
                         </div>
                     </div>
                     <div class="card">
-                        <img class="card-img-top " src="/images/founders/275854557_348028680716593_7296775242774394012_n.jpg" alt="Card image cap ">
+                        <img class="card-img-top " src="../assets/images/founders/275854557_348028680716593_7296775242774394012_n.jpg" alt="Card image cap ">
                         <div class="card-body ">
                             <h5 class="card-title ">DB Manager</h5>
                             <p class="card-text ">This text</p>
@@ -50,7 +50,7 @@ import Footer from '@/components/FooterItem.vue';
                                     <div class="card mb-3" style="max-width: 60%;">
                                         <div class="row g-0">
                                             <div class="col-md-5">
-                                                <img src="/images/artifacts/vase.png" class="img-fluid rounded-start" alt="...">
+                                                <img src="../assets/images/artifacts/vase.png" class="img-fluid rounded-start" alt="...">
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="card-body">
@@ -70,7 +70,7 @@ import Footer from '@/components/FooterItem.vue';
                                     <div class="card mb-3" style="max-width: 60%;">
                                         <div class="row g-0">
                                             <div class="col-md-5">
-                                                <img src="/images/artifacts/plate.png" class="img-fluid rounded-start" alt="...">
+                                                <img src="../assets/images/artifacts/plate.png" class="img-fluid rounded-start" alt="...">
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="card-body">
@@ -90,7 +90,7 @@ import Footer from '@/components/FooterItem.vue';
                                     <div class="card mb-3" style="max-width: 60%;">
                                         <div class="row g-0">
                                             <div class="col-md-5">
-                                                <img src="/images/artifacts/scythe.png" class="img-fluid rounded-start" alt="...">
+                                                <img src="../assets/images/artifacts/scythe.png" class="img-fluid rounded-start" alt="...">
                                             </div>
                                             <div class="col-md-6">
                                                 <div class="card-body">

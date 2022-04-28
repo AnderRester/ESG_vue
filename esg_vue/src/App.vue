@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
-import HelloWorld from '@/components/HelloWorld.vue'
 </script>
 
 <template>
