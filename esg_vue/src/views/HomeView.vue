@@ -2,7 +2,6 @@
 import Header from '@/components/HeaderItem.vue';
 import Footer from '@/components/FooterItem.vue';
 import Inspection from '@/components/InspectionItem.vue';
-import Modal from '@/components/ModalWindowItem.vue';
 </script>
 
 <template>
@@ -78,9 +77,11 @@ import Modal from '@/components/ModalWindowItem.vue';
                                                                 mins
                                                                 ago</small></p>
                                                         <p class="text-center"><button class="btn btn-primary"
-                                                                id="buttonAboutTest" type="button">About
+                                                                id="buttonAboutTest" type="button"
+                                                                @click="isOpen = true">About
                                                             </button>
                                                         </p>
+                                                        <Modal :open="isOpen" @close="isOpen = !isOpen" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -107,7 +108,10 @@ import Modal from '@/components/ModalWindowItem.vue';
                                                                 mins
                                                                 ago</small></p>
                                                         <p class="text-center"><button class="btn btn-primary"
-                                                                id="buttonAboutTest" type="button">About</button></p>
+                                                                id="buttonAboutTest" type="button"
+                                                                @click="isOpen = true">About</button>
+                                                        </p>
+                                                        <Modal :open="isOpen" @close="isOpen = !isOpen" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -135,7 +139,10 @@ import Modal from '@/components/ModalWindowItem.vue';
                                                                 mins
                                                                 ago</small></p>
                                                         <p class="text-center"><button class="btn btn-primary"
-                                                                id="buttonAboutTest" type="button">About</button></p>
+                                                                id="buttonAboutTest" type="button"
+                                                                @click="isOpen = true">About</button>
+                                                        </p>
+                                                        <Modal :open="isOpen" @close="isOpen = !isOpen" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -191,3 +198,22 @@ import Modal from '@/components/ModalWindowItem.vue';
         </div>
     </body>
 </template>
+
+<script lang="ts">
+import Modal from '@/components/ModalWindowItem.vue';
+import { ref } from 'vue';
+export default {
+    data() {
+        return {
+            isOpen: false
+        }
+    },
+    components: { Modal },
+    setup() {
+        const isOpen = ref(false)
+
+        return isOpen
+    }
+}
+</script>
+
