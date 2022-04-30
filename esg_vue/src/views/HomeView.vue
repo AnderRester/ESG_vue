@@ -51,15 +51,15 @@ import Modal from '../components/ModalWindowItem.vue'
                     <h1>Our Workshop</h1>
                     <div class="workshop_inner_cont">
                         <div id="carouselExampleIndicators" class="carousel carousel-dark slide"
-                            data-bs-ride="carousel">
+                            data-bs-ride="carousel" data-pause="hover" data-bs-interval="false" data-bs-touch="false">
                             <!-- <div class="carousel-indicators" style="margin-top: 30%;">
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                                class="active" aria-current="true" aria-label="Slide 1"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                                aria-label="Slide 2"></button>
-                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                                aria-label="Slide 3"></button>
-                        </div> -->
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                                    aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                                    aria-label="Slide 3"></button>
+                            </div> -->
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <div class="col">

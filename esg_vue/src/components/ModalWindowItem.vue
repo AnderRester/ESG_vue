@@ -47,7 +47,7 @@ export default {
     overflow-x: hidden;
     overflow-y: auto;
     background-color: rgba(0, 0, 0, 0.4);
-    z-index: 1;
+    z-index: 2;
 }
 
 .close {
