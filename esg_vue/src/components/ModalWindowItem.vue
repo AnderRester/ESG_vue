@@ -1,16 +1,16 @@
 <template>
     <div class="vue-modal" v-show='open'>
+        <div class="close" @click="$emit('close')"></div>
         <div class="vue-modal-inner">
             <div class="vue-modal-content">
-                <button type="button" @click="$emit('close')">X</button>
-            <InspectionItem />
+                <InspectionItem class="inspection" />
+                <!-- <button type="button" @click="$emit('close')">X</button> -->
             </div>
         </div>
     </div>
 </template>
 
 <script lang="ts">
-import Inspection from '@/components/InspectionItem.vue';
 import InspectionItem from './InspectionItem.vue';
 export default {
     props: {
@@ -19,7 +19,12 @@ export default {
             required: true
         }
     },
-    components: { InspectionItem }
+    components: {
+        InspectionItem
+    },
+    methods: {
+        closeOut() { }
+    }
 }
 
 </script>
@@ -44,15 +49,33 @@ export default {
     background-color: rgba(0, 0, 0, 0.4);
     z-index: 1;
 }
-.vue-modal-inner {
-    width: 1000px;
-    height: 1000px;
-    margin: 2rem auto;
+
+.close {
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(20, 0, 134, 0.611); */
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+
 }
+
+/* .inspection {
+    z-index: 2;
+} */
+
+.vue-modal-inner {
+    max-width: 80%;
+    margin: 6vh auto;
+    z-index: 1;
+}
+
 .vue-modal-content {
+    margin: auto;
     position: relative;
-    background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.3);
+    /* background-color: rgba(255, 255, 255, 0); */
+    /* border: 1px solid rgba(0, 0, 0, 0.3); */
     padding: 2rem;
 }
 </style>

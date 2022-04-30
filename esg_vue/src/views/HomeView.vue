@@ -2,6 +2,11 @@
 import Header from '@/components/HeaderItem.vue';
 import Footer from '@/components/FooterItem.vue';
 import Inspection from '@/components/InspectionItem.vue';
+import Modal from '@/components/ModalWindowItem.vue';
+// import Header from '../components/HeaderItem.vue'
+// import Footer from '../components/FooterItem.vue'
+// import Inspection from '../components/InspectionItem.vue'
+// import Modal from '../components/ModalWindowItem.vue'
 </script>
 
 <template>
@@ -200,7 +205,6 @@ import Inspection from '@/components/InspectionItem.vue';
 </template>
 
 <script lang="ts">
-import Modal from '@/components/ModalWindowItem.vue';
 import { ref } from 'vue';
 export default {
     data() {
