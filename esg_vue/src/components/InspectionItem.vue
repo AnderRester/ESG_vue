@@ -19,9 +19,10 @@
 
 <script lang="ts">
 import { createApp } from 'vue';
-import { InstancedBufferAttribute, Object3D } from 'three/build/three.min.js';
+import SimplexNoise from 'simplex-noise';
+// import { InstancedBufferAttribute, Object3D } from 'three/build/three.min.js';
 
-const simplex = new SimplexNoise();
+// const simplex = new SimplexNoise();
 
 createApp({
   setup() {

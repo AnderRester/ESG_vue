@@ -16,6 +16,7 @@
     "module": "^1.2.5",
     "popper.js": "^1.16.1",
     "postprocessing": "^6.26.3",
+    "simplex-noise": "^3.0.1",
     "three": "^0.139.2",
     "three-module": "^1.0.3",
     "three-trackballcontrols": "^0.9.0",

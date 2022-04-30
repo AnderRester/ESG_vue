@@ -3,19 +3,23 @@
         <div class="vue-modal-inner">
             <div class="vue-modal-content">
                 <button type="button" @click="$emit('close')">X</button>
+            <InspectionItem />
             </div>
         </div>
     </div>
 </template>
 
 <script lang="ts">
+import Inspection from '@/components/InspectionItem.vue';
+import InspectionItem from './InspectionItem.vue';
 export default {
     props: {
         open: {
             type: Boolean,
             required: true
         }
-    }
+    },
+    components: { InspectionItem }
 }
 
 </script>
@@ -41,7 +45,8 @@ export default {
     z-index: 1;
 }
 .vue-modal-inner {
-    max-width: 500px;
+    width: 1000px;
+    height: 1000px;
     margin: 2rem auto;
 }
 .vue-modal-content {
