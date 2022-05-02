@@ -5,8 +5,9 @@
 // import Modal from '@/components/ModalWindowItem.vue';
 import Header from '../components/HeaderItem.vue'
 import Footer from '../components/FooterItem.vue'
-import Inspection from '../components/InspectionItem.vue'
 import Modal from '../components/ModalWindowItem.vue'
+import Modal1 from '../components/ModalWindowItem1.vue'
+import Modal2 from '../components/ModalWindowItem2.vue'
 </script>
 
 <template>
@@ -116,7 +117,7 @@ import Modal from '../components/ModalWindowItem.vue'
                                                                 id="buttonAboutTest" type="button"
                                                                 @click="isOpen = true">About</button>
                                                         </p>
-                                                        <Modal :open="isOpen" @close="isOpen = !isOpen" />
+                                                        <Modal1 :open="isOpen" @close="isOpen = !isOpen" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -147,7 +148,7 @@ import Modal from '../components/ModalWindowItem.vue'
                                                                 id="buttonAboutTest" type="button"
                                                                 @click="isOpen = true">About</button>
                                                         </p>
-                                                        <Modal :open="isOpen" @close="isOpen = !isOpen" />
+                                                        <Modal2 :open="isOpen" @close="isOpen = !isOpen" />
                                                     </div>
                                                 </div>
                                             </div>
